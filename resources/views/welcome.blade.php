@@ -68,6 +68,13 @@
             margin-right: 0.5rem;
             font-size: 1.8rem;
         }
+        .logo-icon {
+            width: 2rem;
+            height: 2rem;
+            margin-right: 0.5rem;
+            display: inline-block;
+            vertical-align: middle;
+        }
 
         .nav-links {
             display: flex;
@@ -706,13 +713,12 @@
             animation: fadeInUp 0.8s ease-out;
         }
     </style>
-</head>
 <body>
     <!-- Header -->
     <header class="header" id="header">
         <nav class="nav">
-            <a href="/" class="logo">
-                <x-application-logo class="w-8 h-8 mr-2" />
+            <a  href="/" class="logo">
+                <x-application-logo   />
                 RiskManager
             </a>
             

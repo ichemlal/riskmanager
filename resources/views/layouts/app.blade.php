@@ -5,7 +5,8 @@
     <meta carset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DUERP Dashboard</title>
-   
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         * {
             margin: 0;
@@ -104,7 +105,6 @@
         .brand-icon {
             width: 40px;
             height: 40px;
-            background: linear-gradient(135deg, #8b44ff 0%, #3b82f6 100%);
             border-radius: 10px;
             display: flex;
             align-items: center;

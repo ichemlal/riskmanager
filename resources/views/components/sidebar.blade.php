@@ -4,7 +4,7 @@
               
             <div class="sidebar-header">
                 <div class="brand-icon">
-                    <x-application-logo class="w-8 h-8 text-primary" />
+                    <img src="{{ asset('logo.png') }}" alt="Logo" style="width: 40px; height: 40px; object-fit: contain;">
                 </div>
                 <div class="brand-text">
                     <h2>Cindyniq</h2>
@@ -91,10 +91,10 @@
 
     <!-- Logout Button at the bottom -->
     @auth
-    <form method="POST" action="{{ route('logout') }}" style="position: absolute; bottom: 24px; left: 0; width: 100%; text-align: center;">
+    <form method="POST" action="{{ route('logout') }}" style="position: absolute; bottom: 24px; left: 0; width: 100%; text-align: center; margin-left: 10px;">
         @csrf
         <button type="submit" class="nav-item" style="background: none; border: none; color: #f87171; font-weight: 600; font-size: 15px; cursor: pointer; padding: 12px 0;">
-            <span class="sidebar-icon">⏻</span>
+            <span class="sidebar-icon"><i class="fas fa-sign-out-alt"></i></span>
             Déconnexion
         </button>
     </form>
