@@ -712,7 +712,7 @@
     <header class="header" id="header">
         <nav class="nav">
             <a href="/" class="logo">
-                <i class="fas fa-shield-alt"></i>
+                <x-application-logo class="w-8 h-8 mr-2" />
                 RiskManager
             </a>
             

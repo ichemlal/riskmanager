@@ -4,15 +4,11 @@
               
             <div class="sidebar-header">
                 <div class="brand-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M3 21h18"/>
-                        <path d="M5 21V7l8-4v18"/>
-                        <path d="M19 21V11l-6-4"/>
-                    </svg>
+                    <x-application-logo class="w-8 h-8 text-primary" />
                 </div>
                 <div class="brand-text">
-                    <h2>DUERP</h2>
-                    <p>AI Assistant</p>
+                    <h2>Cindyniq</h2>
+                    <p>Risk Management</p>
                 </div>
             </div>
 
